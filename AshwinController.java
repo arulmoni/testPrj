@@ -64,7 +64,7 @@ public class AshwinController {
 			) 
 	
 	{
-		return "------->Welcome :"+name+" Your email is :"+email+"  Age is :"+(age-1);
+		return "Welcome :"+name+" Your email is :"+email+"  Age is :"+(age-1);
 	}
 	
 	@GET
