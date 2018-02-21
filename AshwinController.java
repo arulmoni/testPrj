@@ -51,7 +51,7 @@ public class AshwinController {
 	@Path("/welcome")
 	@Produces("application/json")
 	public String welcomeMsg() {
-		return "--->Welcome to Jersey RESTFul Web Services!";
+		return "--->Welcome to Jersey RESTFul Web Services!<--";
 	}
 	
 	@GET
