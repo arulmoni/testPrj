@@ -1,2 +1,2 @@
 # testPrj
-test project0000
+test project
