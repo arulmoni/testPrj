@@ -37,7 +37,7 @@ public class AshwinController {
 		
 		for(Employee e: emps)
 		{
-			//System.out.println(e.getId()+"   "+e.getName()+"   "+e.getEmail());
+			System.out.println(e.getId()+"   "+e.getName()+"   "+e.getEmail());
 			JSONObject obj = new JSONObject();
 			obj.append("Id",e.getId());
 			obj.append("Name", e.getName());
